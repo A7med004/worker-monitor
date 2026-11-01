@@ -11,6 +11,9 @@ PUBLIC_FILES = (
     'evidence.py', 'annotation.py', 'tracker.yaml', 'download_models.py',
     'build_release.py', 'test_state.py', 'test_evidence.py',
     'test_download_models.py',
+    'docs/screenshots/interface.jpg',
+    'docs/screenshots/worker-tracking.jpg',
+    'docs/screenshots/ppe-status.jpg',
 )
 
 

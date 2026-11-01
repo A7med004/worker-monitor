@@ -2,6 +2,26 @@
 
 A self-contained video application for detecting and tracking workers, checking personal protective equipment (PPE), and estimating whether a worker is walking, standing, or sitting. Uncertain observations are shown as `unknown` or `Checking`.
 
+## Screenshots
+
+### Video upload and processing settings
+
+Upload a video, choose a processing device, and enable or disable fluorescent colour assist.
+
+![Worker Monitor interface with video upload and processing settings](docs/screenshots/interface.jpg)
+
+### Worker tracking and activity
+
+An unedited frame from the processed sample video showing worker IDs, activity labels, and individual PPE observations.
+
+![Annotated video showing worker tracking and activity labels](docs/screenshots/worker-tracking.jpg)
+
+### PPE status panel
+
+Helmet and vest observations appear beside the video. Green indicates **Seen**, amber indicates **Not seen**, and grey indicates **Checking**. These are model observations, not ground-truth compliance labels; gloves and boots are advisory.
+
+![PPE review panel showing helmet and vest observations for tracked workers](docs/screenshots/ppe-status.jpg)
+
 ## Quick start
 
 Extract this project into its own directory. No parent repository or shared model folder is required.
