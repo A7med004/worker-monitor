@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+output/
+*.pt
+*.onnx
+*.ts
+
+# Local investigation and environment setup scripts.
+audit_ppe.py
+review_after.py
+download_gpu.py
+
+# Model cache, interrupted downloads, and release packages.
+weights/
+*.part
+*.import
+*.lock
+dist/
+*.py[cod]

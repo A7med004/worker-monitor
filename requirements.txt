@@ -1,0 +1,11 @@
+ultralytics==8.4.127
+torch==2.13.0
+torchvision==0.28.0
+opencv-python==5.0.0.93
+numpy==2.4.6
+streamlit==1.62.0
+ftfy==6.3.1
+lap>=0.5.12
+filelock>=3.13
+PyYAML>=6.0,<7
+clip @ https://github.com/ultralytics/CLIP/archive/7ffa84b3bfa40c42ecc1c77147a855e69cb2dd40.zip

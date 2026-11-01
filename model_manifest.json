@@ -1,0 +1,41 @@
+{
+  "release": "v8.4.0",
+  "source": "https://github.com/ultralytics/assets/releases/tag/v8.4.0",
+  "assets": [
+    {
+      "name": "yolo26s.pt",
+      "purpose": "Worker detection",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26s.pt",
+      "size": 20422725,
+      "sha256": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b"
+    },
+    {
+      "name": "yolo26n-pose.pt",
+      "purpose": "Body keypoints",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-pose.pt",
+      "size": 7878574,
+      "sha256": "eb3bb8268828aeaf515cec23a4bfafd793944a86fe9af94ba7823609c14522a9"
+    },
+    {
+      "name": "yoloe-11s-seg.pt",
+      "purpose": "PPE detection",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yoloe-11s-seg.pt",
+      "size": 27803986,
+      "sha256": "8e439445c87338b79d9ce21dec109f4621e26df67e94d26ea1a98c1e64dce3e3"
+    },
+    {
+      "name": "mobileclip_blt.ts",
+      "purpose": "PPE text encoder",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/mobileclip_blt.ts",
+      "size": 599764649,
+      "sha256": "a67804d1b0f07b8b9a20c1761ec0847f34660f5fa338ec70e8f3fce68ed95e54"
+    },
+    {
+      "name": "yolo26n-cls.pt",
+      "purpose": "Tracking appearance encoder",
+      "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n-cls.pt",
+      "size": 5786434,
+      "sha256": "0dd6f8dbc448870ac98a3cbb7156f923f7ce21fed3755d4019169ffffd279e81"
+    }
+  ]
+}
